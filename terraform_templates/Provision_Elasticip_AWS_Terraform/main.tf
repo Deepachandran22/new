@@ -1,4 +1,3 @@
-"# Specify the provider and access details
 provider "aws" {
   region = "${var.AWS_Region}"
 
@@ -83,5 +82,4 @@ resource "aws_instance" "web" {
   #Instance tags
   tags {
     Name = "${var.security_Group_Name}"
-  } 			
-}"
+  }
