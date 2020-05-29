@@ -83,3 +83,4 @@ resource "aws_instance" "web" {
   tags {
     Name = "${var.security_Group_Name}"
   }
+}
